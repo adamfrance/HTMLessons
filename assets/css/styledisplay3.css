@@ -1,0 +1,10 @@
+body {
+    display: -moz-grid;
+    -moz-grid-columns: 200px 400px;
+    -moz-grid-rows: 100px 300px;
+    }
+    header, menu, aside, article { display: block; margin: 0; padding: 0;}
+    header { -moz-grid-column: 1; -moz-grid-row: 1; background-color: yellow;}
+    menu { -moz-grid-column: 2; -moz-grid-row: 1; background-color: red;}
+    aside { -moz-grid-column: 1; -moz-grid-row: 2; background-color: grey; }
+    article { -moz-grid-column: 2; -moz-grid-row: 2; background-color: green; }
